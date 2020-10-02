@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "weV5eceZPYlz94W5hU4B3AIahGyEa+4K70YZ/+3onTqwZ8MSVbbpmuYP2irZr40dGfoGXKOXjju+7yssK6OOjg==",
+  "dgSpecHash": "afmEo0f/7PhQYZVSlZUohNZeso76/hTNQ8FT4DRdgg8E22mXFmWRkKj5S/AKR/iVvahEEDIWPbAmxwFIR9KBZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nesto\\Desktop\\C# .Net Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nesto\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
