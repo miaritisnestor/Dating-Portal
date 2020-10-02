@@ -57,7 +57,7 @@ namespace DatingApp.API.Data
             CreatePasswordHash(password, out passwordHash, out passwordSalt);
 
             user.PasswordHash = passwordHash;
-            user.PasswordHash = passwordSalt;
+            user.PasswordSalt = passwordSalt;
 
             //entity framework add proccess
             await _context.Users.AddAsync(user);
