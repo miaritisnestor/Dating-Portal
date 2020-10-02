@@ -24,5 +24,12 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\Services\" />
+    <Folder Include="Data\Validation\" />
+    <Folder Include="Data\Repositories\" />
+  </ItemGroup>
+
 
 </Project>
