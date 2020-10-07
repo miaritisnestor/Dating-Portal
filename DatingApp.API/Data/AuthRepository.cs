@@ -9,7 +9,7 @@ namespace DatingApp.API.Data
 {
     public class AuthRepository : IAuthRepository
     {
-        //use _context inside the whole class
+        //use _context inside the whole class -> through the context i have access to models(database tables)
         private readonly DataContext _context;
 
         public AuthRepository(DataContext context)
