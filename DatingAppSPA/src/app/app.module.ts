@@ -10,6 +10,7 @@ import { AuthService } from './_services/auth.service';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { HelperService } from './_services/helper.service';
+import { ErrorInterceptorProvider } from './_services/error.interceptor';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { HelperService } from './_services/helper.service';
     HttpClientModule,
     FormsModule
   ],
-  providers: [AuthService, HelperService, HomeComponent],
+  providers: [AuthService, HelperService, HomeComponent, ErrorInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
